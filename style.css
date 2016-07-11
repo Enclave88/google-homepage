@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 10px;
+}
+header ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a {
+    font-size: 1rem;
+    font-family: arial, sans-serif;
+    cursor: auto;
+}
