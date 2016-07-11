@@ -4,13 +4,30 @@ body {
     width: 100%;
     font-size: 10px;
 }
-header ul {
+
+header {
+    padding: 1rem 0;
+}
+
+header ul,
+.breadcrumbs {
     display: flex;
     justify-content: flex-end;
 }
 
+header li {
+    padding-left: 1rem;
+    list-style: none;
+}
+
 header a {
-    font-size: 1rem;
+    color: #000;
+    font-size: .8rem;
     font-family: arial, sans-serif;
+    text-decoration: none;
     cursor: auto;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
