@@ -1,7 +1,14 @@
-body {
+html, body {
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
-    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     font-size: 10px;
 }
 
@@ -29,5 +36,42 @@ header a {
 }
 
 header a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 20px;
+    min-width: 980px;
+}
+
+.links, .l-links ul, .r-links ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-links ul, .r-links ul {
+    min-width: 17rem;
+    padding-right: 2rem;
+}
+
+.l-links li, .r-links li {
+    list-style: none;
+}
+
+.l-links a, .r-links a {
+    color: #666;
+    font-size: .8rem;
+    font-family: arial, sans-serif;
+    text-decoration: none;
+    cursor: auto;
+}
+
+.r-links a {
+    padding-left: 2rem;
+}
+
+.l-links a:hover, .r-links a:hover {
     text-decoration: underline;
 }
