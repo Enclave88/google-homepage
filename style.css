@@ -88,3 +88,18 @@ main {
     width: 272px;
     height: 92px;
 }
+
+.search-engine {
+    border: 1px solid #d9d9d9;
+}
+
+.search-engine:visited {
+    border: 1px solid blue;
+}
+
+.searcher {
+    width: 36rem;
+    padding: .5rem 0;
+    border: none;
+    outline: none;
+}
