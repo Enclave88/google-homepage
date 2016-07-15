@@ -93,13 +93,18 @@ main {
     border: 1px solid #d9d9d9;
 }
 
+.search-engine:hover {
+    border: 1px solid #666;
+}
+
 .search-engine:visited {
-    border: 1px solid blue;
+    border: 1px solid darkblue;
 }
 
 .searcher {
+    font-size: 1rem;
     width: 36rem;
-    padding: .5rem 0;
+    padding: .5rem;
     border: none;
     outline: none;
 }
