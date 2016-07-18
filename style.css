@@ -90,6 +90,15 @@ main {
     margin-bottom: 2rem;
 }
 
+.logo-subtext {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    position: relative;
+    top: 76px;
+    white-space: nowrap;
+}
+
 .search-engine {
     border: 1px solid #d9d9d9;
     display: flex;
