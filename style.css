@@ -87,10 +87,14 @@ main {
     background-size: 272px 92px;
     width: 272px;
     height: 92px;
+    margin-bottom: 2rem;
 }
 
 .search-engine {
     border: 1px solid #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .search-engine:hover {
@@ -107,4 +111,25 @@ main {
     padding: .5rem;
     border: none;
     outline: none;
+}
+
+.input-inner_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display-keyboard {
+    background: url('./images/keybo.gif') no-repeat center;
+    height: 11px;
+    width: 19px;
+    padding: 0 .5rem;
+}
+
+#ok-google {
+    background: url('./images/okg.png') no-repeat -3px 0;
+    background-size: 24px 24px;
+    height: 23px;
+    width: 17px;
+    padding: 0 .5rem;
 }
