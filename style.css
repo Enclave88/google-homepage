@@ -150,7 +150,7 @@ main {
     border: 1px solid #c6c6c6;
 }
 
-.search-engine:visited {
+.search-engine:focus {
     border: 1px solid darkblue;
 }
 
