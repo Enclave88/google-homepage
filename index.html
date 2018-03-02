@@ -13,14 +13,27 @@
                 <li><a href="https://www.google.ru/imghp?hl=ru&tab=wi&ei=Q3GEV-tOJHLsAGixJfLCA&ved=0EKouCBMoAQ">Картинки</a></li>
             </ul>
             <ul>
-                <li><a href="#">M</a></li>
-                <li><a href="#">O</a></li>
-                <li><a href="#">Pro</a></li>
+                <li><a href="https://www.google.ru/intl/ru/options/" class="google-apps"></a></li>
+                <li class="bg-notif"><a href="#" class="notifications"></a></li>
+                <li><a href="https://accounts.google.com/SignOutOptions?hl=ru&continue=https://www.google.ru/">Profile</a></li>
             </ul>
         </div>
     </header>
     <main>
-        <div title="Google" id="logo"></div>
+        <div title="Google" id="logo">
+            <div class="logo-subtext">Sutangu</div>
+        </div>
+        <div class="search-engine" onclick="this.style.border='1px solid #4285f4'">
+            <label for="searcher"><input id='searcher' class="searcher" name="searcher" type="text"/></label>
+            <div class="input-inner_container">
+                <div id="display-keyboard"></div>
+                <div id="ok-google"></div>
+            </div>
+        </div>
+        <div class="search-buttons">
+            <input value="Поиск в Google" aria-label="Поиск в Google" name="btnK" type="submit" >
+            <input value="Мне повезёт!" aria-label="Мне повезёт!" name="btnK" type="submit" >
+        </div>
     </main>
     <footer>
         <div class="links">
