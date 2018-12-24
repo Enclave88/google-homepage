@@ -120,6 +120,8 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
+    margin-top: 7.3rem;
 }
 
 #logo {
